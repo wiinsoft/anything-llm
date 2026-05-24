@@ -8,7 +8,7 @@ const TRANSLATIONS = {
     llm: {
       title: "Preferência de LLM",
       description:
-        "AnythingLLM funciona com vários provedores de LLM. Este será o serviço que lidará com os chats.",
+        "WiinsLLM funciona com vários provedores de LLM. Este será o serviço que lidará com os chats.",
     },
     userSetup: {
       title: "Configuração do Usuário",
@@ -37,14 +37,14 @@ const TRANSLATIONS = {
         "Estas configurações podem ser alteradas a qualquer momento.",
     },
     survey: {
-      title: "Bem-vindo ao AnythingLLM",
-      description: "Ajude-nos a melhorar o AnythingLLM. Opcional.",
+      title: "Bem-vindo ao WiinsLLM",
+      description: "Ajude-nos a melhorar o WiinsLLM. Opcional.",
       email: "Qual seu email?",
-      useCase: "Como você usará o AnythingLLM?",
+      useCase: "Como você usará o WiinsLLM?",
       useCaseWork: "Para trabalho",
       useCasePersonal: "Uso pessoal",
       useCaseOther: "Outro",
-      comment: "Como você conheceu o AnythingLLM?",
+      comment: "Como você conheceu o WiinsLLM?",
       commentPlaceholder:
         "Reddit, Twitter, GitHub, YouTube, etc. - Conte como nos encontrou!",
       skip: "Pular Pesquisa",
@@ -52,7 +52,7 @@ const TRANSLATIONS = {
     },
     workspace: {
       title: "Crie seu primeiro workspace",
-      description: "Crie seu primeiro workspace e comece a usar o AnythingLLM.",
+      description: "Crie seu primeiro workspace e comece a usar o WiinsLLM.",
     },
   },
   common: {
@@ -131,7 +131,7 @@ const TRANSLATIONS = {
       title: "Primeiros Passos",
       tasksLeft: "tarefas restantes",
       completed:
-        "Você está no caminho para se tornar um expert em AnythingLLM!",
+        "Você está no caminho para se tornar um expert em WiinsLLM!",
       dismiss: "fechar",
       tasks: {
         create_workspace: {
@@ -234,7 +234,7 @@ const TRANSLATIONS = {
       add: "Adicionar mensagem",
       save: "Salvar Mensagens",
       heading: "Explique para mim",
-      body: "os benefícios do AnythingLLM",
+      body: "os benefícios do WiinsLLM",
     },
     pfp: {
       title: "Imagem do Assistente",
@@ -427,7 +427,7 @@ const TRANSLATIONS = {
     },
     branding: {
       title: "Marca & Etiqueta Branca",
-      description: "Personalize sua instância do AnythingLLM com sua marca.",
+      description: "Personalize sua instância do WiinsLLM com sua marca.",
     },
     chat: {
       title: "Chat",
@@ -552,7 +552,7 @@ const TRANSLATIONS = {
       "Credenciais e configurações do seu provedor de transcrição. Essas chaves devem estar corretas para processar arquivos de mídia.",
     provider: "Provedor de Transcrição",
     "warn-start":
-      "Usar o modelo local whisper em máquinas com RAM ou CPU limitada pode travar o AnythingLLM.",
+      "Usar o modelo local whisper em máquinas com RAM ou CPU limitada pode travar o WiinsLLM.",
     "warn-recommend": "Recomendamos pelo menos 2GB de RAM e arquivos <10Mb.",
     "warn-end":
       "O modelo interno será baixado automaticamente no primeiro uso.",
@@ -630,7 +630,7 @@ const TRANSLATIONS = {
   privacy: {
     title: "Privacidade & Dados",
     description:
-      "Configurações de como provedores terceiros e o AnythingLLM lidam com seus dados.",
+      "Configurações de como provedores terceiros e o WiinsLLM lidam com seus dados.",
     llm: "Seleção de LLM",
     embedding: "Preferência de Vínculo",
     vector: "Banco de Dados Vetorial",
@@ -808,7 +808,7 @@ const TRANSLATIONS = {
       fetching: "Buscando...",
       "fetch-website": "Buscar site",
       "privacy-notice":
-        "Esses arquivos são enviados ao processador local do AnythingLLM. Não são compartilhados com terceiros.",
+        "Esses arquivos são enviados ao processador local do WiinsLLM. Não são compartilhados com terceiros.",
     },
     pinning: {
       what_pinning: "O que é fixar documento?",

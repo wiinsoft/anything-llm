@@ -160,7 +160,7 @@ export const CHECKLIST_ITEMS = () => [
     description: t("main-page.checklist.tasks.visit_community.description"),
     action: t("main-page.checklist.tasks.visit_community.action"),
     handler: () => {
-      window.open(paths.communityHub.website(), "_blank");
+      window.open(paths.communityHub.trending(), "_self");
       return true;
     },
     icon: UsersThree,

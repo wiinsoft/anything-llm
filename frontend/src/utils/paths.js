@@ -50,16 +50,16 @@ export default {
     },
   },
   github: () => {
-    return "https://github.com/Mintplex-Labs/anything-llm";
+    return "#";
   },
   discord: () => {
-    return "https://discord.com/invite/6UyHPeGZAC";
+    return "#";
   },
   docs: () => {
-    return "https://docs.anythingllm.com";
+    return "#";
   },
   chatModes: () => {
-    return "https://docs.anythingllm.com/features/chat-modes";
+    return "#/features/chat-modes";
   },
   mailToMintplex: () => {
     return "mailto:team@mintplexlabs.com";
@@ -210,17 +210,17 @@ export default {
       return `${this.website()}/me`;
     },
     noPrivateItems: () => {
-      return "https://docs.anythingllm.com/community-hub/faq#no-private-items";
+      return "#/community-hub/faq#no-private-items";
     },
   },
 
   // TODO: Migrate all docs.anythingllm.com links to the new docs.
   documentation: {
     mobileIntroduction: () => {
-      return "https://docs.anythingllm.com/mobile/overview";
+      return "#/mobile/overview";
     },
     contextWindows: () => {
-      return "https://docs.anythingllm.com/chatting-with-documents/introduction#you-exceed-the-context-window---what-now";
+      return "#/chatting-with-documents/introduction#you-exceed-the-context-window---what-now";
     },
   },
 

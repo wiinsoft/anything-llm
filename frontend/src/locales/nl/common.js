@@ -144,7 +144,7 @@ const TRANSLATIONS = {
       add: "Nieuw bericht toevoegen",
       save: "Berichten opslaan",
       heading: "Leg me uit",
-      body: "de voordelen van AnythingLLM",
+      body: "de voordelen van WiinsLLM",
     },
     pfp: {
       title: "Assistent Profielfoto",
@@ -334,7 +334,7 @@ const TRANSLATIONS = {
   api: {
     title: "API-sleutels",
     description:
-      "API-sleutels stellen de houder in staat om deze AnythingLLM-instantie programmatisch te openen en beheren.",
+      "API-sleutels stellen de houder in staat om deze WiinsLLM-instantie programmatisch te openen en beheren.",
     link: "Lees de API-documentatie",
     generate: "Genereer Nieuwe API-sleutel",
     table: {
@@ -346,7 +346,7 @@ const TRANSLATIONS = {
   llm: {
     title: "LLM Voorkeur",
     description:
-      "Dit zijn de inloggegevens en instellingen voor je voorkeurs LLM-chat & inbeddingprovider. Het is belangrijk dat deze sleutels actueel en correct zijn, anders zal AnythingLLM niet goed werken.",
+      "Dit zijn de inloggegevens en instellingen voor je voorkeurs LLM-chat & inbeddingprovider. Het is belangrijk dat deze sleutels actueel en correct zijn, anders zal WiinsLLM niet goed werken.",
     provider: "LLM Provider",
     providers: {
       azure_openai: {
@@ -367,7 +367,7 @@ const TRANSLATIONS = {
       "Dit zijn de inloggegevens en instellingen voor je voorkeurs transcriptiemodelprovider. Het is belangrijk dat deze sleutels actueel en correct zijn, anders worden media en audio niet getranscribeerd.",
     provider: "Transcriptieprovider",
     "warn-start":
-      "Het gebruik van het lokale fluistermodel op machines met beperkte RAM of CPU kan AnythingLLM vertragen bij het verwerken van mediabestanden.",
+      "Het gebruik van het lokale fluistermodel op machines met beperkte RAM of CPU kan WiinsLLM vertragen bij het verwerken van mediabestanden.",
     "warn-recommend":
       "We raden minstens 2GB RAM aan en upload bestanden <10Mb.",
     "warn-end":
@@ -378,7 +378,7 @@ const TRANSLATIONS = {
     "desc-start":
       "Bij het gebruik van een LLM die geen ingebouwde ondersteuning voor een inbeddingengine heeft, moet je mogelijk aanvullende inloggegevens opgeven voor het inbedden van tekst.",
     "desc-end":
-      "Inbedding is het proces van het omzetten van tekst in vectoren. Deze inloggegevens zijn vereist om je bestanden en prompts om te zetten naar een formaat dat AnythingLLM kan gebruiken om te verwerken.",
+      "Inbedding is het proces van het omzetten van tekst in vectoren. Deze inloggegevens zijn vereist om je bestanden en prompts om te zetten naar een formaat dat WiinsLLM kan gebruiken om te verwerken.",
     provider: {
       title: "Inbedding Provider",
     },
@@ -404,7 +404,7 @@ const TRANSLATIONS = {
   vector: {
     title: "Vector Database",
     description:
-      "Dit zijn de inloggegevens en instellingen voor hoe je AnythingLLM-instantie zal functioneren. Het is belangrijk dat deze sleutels actueel en correct zijn.",
+      "Dit zijn de inloggegevens en instellingen voor hoe je WiinsLLM-instantie zal functioneren. Het is belangrijk dat deze sleutels actueel en correct zijn.",
     provider: {
       title: "Vector Database Provider",
       description: "Er is geen configuratie nodig voor LanceDB.",
@@ -449,7 +449,7 @@ const TRANSLATIONS = {
   privacy: {
     title: "Privacy & Gegevensverwerking",
     description:
-      "Dit is je configuratie voor hoe verbonden derden en AnythingLLM je gegevens verwerken.",
+      "Dit is je configuratie voor hoe verbonden derden en WiinsLLM je gegevens verwerken.",
     llm: "LLM Selectie",
     embedding: "Inbedding Voorkeur",
     vector: "Vector Database",
@@ -983,7 +983,7 @@ const TRANSLATIONS = {
     password: {
       title: "Wachtwoordbeveiliging",
       description:
-        "Bescherm je AnythingLLM-instantie met een wachtwoord. Als je dit vergeet, is er geen herstelmethode, dus zorg ervoor dat je dit wachtwoord opslaat.",
+        "Bescherm je WiinsLLM-instantie met een wachtwoord. Als je dit vergeet, is er geen herstelmethode, dus zorg ervoor dat je dit wachtwoord opslaat.",
       "password-label": "Instances wachtwoord",
     },
   },
